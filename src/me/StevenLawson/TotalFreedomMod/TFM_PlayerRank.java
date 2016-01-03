@@ -17,6 +17,9 @@ public enum TFM_PlayerRank
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin", ChatColor.LIGHT_PURPLE + "[SrA]"),
     OWNER("the " + ChatColor.BLUE + "Owner", ChatColor.BLUE + "[Owner]"),
     CONSOLE("The " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
+    DEVL("The " + ChatColor.DARK_PURPLE + "Lead Developer", ChatColor.DARK_PURPLE + "[Lead Developer]"),
+    SYS("The " + ChatColor.DARK_PURPLE + "System Admin", ChatColor.DARK_PURPLE + "[System Admin]");
+    
     private final String loginMessage;
     private final String prefix;
 
